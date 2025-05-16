@@ -11,6 +11,4 @@ def index():
         abort(400)
 
 if __name__ == '__main__':
-# host='0.0.0.0' para que escuche fuera de localhost si lo necesitas,
-# debug=True para que te muestre logs y autorecargue
     app.run(host='0.0.0.0', port=5000, debug=True)
